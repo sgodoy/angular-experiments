@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //isbnApiUrl: 'https://www.googleapis.com/books/v1/',
+  isbnApiUrl: 'https://openlibrary.org/api/',
 };
 
 /*
